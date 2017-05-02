@@ -10,6 +10,13 @@
 ## check build好的image
 `$ docker images`
 
+## containers
+  * check running containers: `$ docker ps`
+  * list all local containers use -a option: `$ docker ps -a`
+  * view the latest created container, including non-running containers: `$ docker ps -l`
+
+## To list all local containers use -a option
+
 ## run image on Docker
 `$ docker run --name APP_NAME -p PORT_MAPPING -d IMAGE_NAME`
 example: 
